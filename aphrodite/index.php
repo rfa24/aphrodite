@@ -13,25 +13,17 @@
   </head>
   <body>
     <div id="overlay"></div>
+    <!-- Mobile Menu -->
     <div id="mobile-menu">
-      <ul>
-        <li class="page-scroll"><a href="#salon">The Salon</a></li>
-        <li class="page-scroll"><a href="#ourteam">Meet our team</a></li>
-        <li class="page-scroll"><a href="#services">Our Services</a></li>
-        <li class="page-scroll"><a href="#gallery">portfolio</a></li>
-        <li class="page-scroll"><a href="#promotions">Promotions</a></li>
-        <li class="page-scroll"><a href="#video">Video</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="blog-classic.html">Blog Classic</a></li>
-        <li><a href="blog-fullwidth.html">Blog Full Width</a></li>
-        <li><a href="blog-masonary.html">Blog Masonary</a></li>
-        <li class="page-scroll"><a href="#contact">Contact</a></li>
-      </ul>
+      <?php include 'inc/mobile-menu.php';?>
     </div>
+    <!-- End of Mobile Menu -->
     <div id="page">
+      <!-- Main Navigation -->
       <header id="pagetop">
         <?php include 'inc/header.php';?>
       </header>
+      <!-- End of Main Navigation -->
       <div class="sliderfull">
         <div id="rev_slider_4_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="classicslider1" style="margin:0px auto;background-color:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
           <!-- START REVOLUTION SLIDER 5.0.7 auto mode -->
@@ -46,7 +38,7 @@
               <li data-index="rs-17" data-transition="zoomout" data-slotamount="default"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"  data-title="Intro" data-description="">
                 <!-- MAIN IMAGE -->
                 <img src="images/slider2.jpg"  alt="slider"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
-                
+
               </li>
             </ul>
             <div class="tp-static-layers"></div>
@@ -114,13 +106,13 @@
                   <div class="third-effect">
                     <img src="assets\img\lash-type\natural.png" class="img-responsive" alt="Our Team">
                   </div>
-                  
+
                   <div class="team">
                     <h3>Natural Volume</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar luctus est eget congue. Nam auctor nisi est, nec tempus lacus.</p>
                   </div>
                 </div>
-                
+
               </div>
             </div>
           </div>
@@ -576,7 +568,7 @@
       </div>
     </div>
   </section-->
-  
+
   <section class="testimonialdiv wow fadeInUp">
     <div class="container">
       <div class="testimonilabg">
@@ -615,14 +607,14 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar luctus est eget congue. Nam auctor nisi est, nec tempus lacus viverra nec. Nullam cursus, neque non congue aliquam, mauris massa consequat sem, ut laoreet nisi erat et lectus.</p>
               </div>
             </div>
-            
+
           </div>
           <div class="carousel-control"> <a class="left" href="#myCarousel-2" role="button" data-slide="prev"></a> <a class="right" href="#myCarousel-2" role="button" data-slide="next"></a> </div>
         </div>
       </div>
     </div>
   </section>
-  
+
   <section id="contact" class="wow fadeInUp">
     <div class="container">
       <div class="row">
@@ -670,7 +662,7 @@
       </div>
     </div>
   </section>
-  
+
   <a href="#" class="scrollup">Top</a>
 </div>
 <script src="js/jquery.1.11.2.js"></script>
