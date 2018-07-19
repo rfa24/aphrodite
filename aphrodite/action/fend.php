@@ -1,10 +1,7 @@
 <?php
-	/**
-	 * @param  [type]
-	 * @param  [type]
-	 * @return [type]
-	 */
-	function doSomething($name, $address){
+
+	function CreateAppointment($name, $email, $phone, $altPhone, $date, $time, $note, $address){
 
 	}
+
 ?>
